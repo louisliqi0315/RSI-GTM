@@ -8,11 +8,11 @@ Status, stated honestly: this package is a benchmark design plus one simulator i
 
 How to read this table: `lines` is the `wc -l` line count; `sha256` is the SHA-256 of the file in this package. For copied files, the checksum matches the source file byte for byte. Code comments in Chinese were deliberately NOT translated, so that code checksums stay identical to the original package. `MANIFEST.md` itself is excluded from its own table (its checksum can be computed by any reader). Build artefacts such as `code/__pycache__/` are not part of this package and were removed after the smoke run.
 
-The code and data release link in `docs/paper-draft-arxiv-submission.md` (line 1155 of the draft) is https://github.com/louisliqi0315/RSI-GTM. No placeholder remains open in this package.
+The code and data release link in `docs/paper-draft-arxiv-submission.md` (line 1157 of the draft) is https://github.com/louisliqi0315/RSI-GTM. No placeholder remains open in this package.
 
 | Package path | Source path | Lines | sha256 |
 |---|---|---:|---|
-| `README.md` | `newly written in this package (no external source file)` | 141 | `80840c683e1a0511cb9c1b0429da044fd57dc406d3d6d582353c7c3ccccc9db6` |
+| `README.md` | `newly written in this package (no external source file)` | 141 | `5988916f453076b6a60dff596219b39a060e1e789c37e7772ee99694a3f44704` |
 | `code/gtm_sim.py` | `benchmark-package/code/gtm_sim.py` | 426 | `699e450c2e4673fee4e6c189b1bf6f641f300e10d7615153403ab4b119eaf219` |
 | `code/gtm_sim_phase2b.py` | `benchmark-package/code/gtm_sim_phase2b.py` | 430 | `f54d04c281354d977eb6c6165469542a3e8317097ebd4519bea4879c522fd3eb` |
 | `code/phase2b_multiseed.py` | `benchmark-package/code/phase2b_multiseed.py` | 117 | `e16a0bef32cfc6892eeaef79ae905472499d7ca1c2569dae195acbaa196c53b4` |
@@ -53,7 +53,7 @@ The code and data release link in `docs/paper-draft-arxiv-submission.md` (line 1
 | `data/phase2j_results.json` | `benchmark-package/data/phase2j_results.json` | 15460 | `08143358458721bff9e2a1f16c2fb34646db014b85091725932dfc4f8f270b40` |
 | `data/phase2k_results.json` | `benchmark-package/data/phase2k_results.json` | 19727 | `43dccfe479275ac202c9cbfc5d17dd9ee4f32d76a3357f9a12c2fda14d13c399` |
 | `data/public_signal_panel.schema.json` | `benchmark-package/data/public_signal_panel.schema.json` | 0 | `987035a0bd187bd222b5ee4ba4d3ee8398b2efb84a9e1cdb56dfc9ab92efdf8e` |
-| `docs/paper-draft-arxiv-submission.md` | `~/workspace/gtm-research/paper-draft-arxiv-submission.md` | 1155 | `b5d6131eb09a814b753c6935593c4478b0c1427141eb71fe0e13aebb470bd96a` |
+| `docs/paper-draft-arxiv-submission.md` | `~/workspace/gtm-research/paper-draft-arxiv-submission-compliance-v2.md` | 1159 | `f945dacdc27e1c957b85e6063ebe527b9454679bacb3a4fb9a5d6e46b27975df` |
 | `docs/reproduction-smoke-seeds30-pass.log` | `newly written in this package (no external source file)` | 129 | `8f07383bda062aa98b96f62bf5b04e078bbe0e3dfa07a4ddb2220569cc993660` |
 | `docs/stage-summary-en.md` | `newly written in this package (no external source file)` | 34 | `d2b33a14a8eb1e52d3d2092ca450a39af98fe1e6074b2f9457d04bb111dd132a` |
 | `docs/preregistrations-zh/phase2e_prereg.md` | `benchmark-package/docs/preregistrations/phase2e_prereg.md` | 80 | `a98e884efeed5cebea6b81638a339010b2fb3a6ebea132ded8e8edd140a15b3d` |
