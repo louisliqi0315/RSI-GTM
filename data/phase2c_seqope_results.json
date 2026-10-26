@@ -1,0 +1,504 @@
+{
+  "disclaimer": "SYNTHETIC ONLY — 全部合成数据，不是真实厂商数据。",
+  "main": {
+    "config": {
+      "seed": 501,
+      "accounts": 200,
+      "weeks": 24,
+      "eps": 0.3
+    },
+    "truth_per_account_pipeline": {
+      "reply_greedy": 3.49,
+      "wait_heavy": 0.415,
+      "G": 2.7,
+      "G+_gated": 3.085,
+      "G+_ungated": 3.9,
+      "human_rules": 1.725
+    },
+    "truth_ratio": {
+      "reply_greedy": 0.0974,
+      "wait_heavy": 0.1402,
+      "G": 0.2802,
+      "G+_gated": 0.3104,
+      "G+_ungated": 0.2364,
+      "human_rules": 0.0864
+    },
+    "truth_rank_ratio": [
+      "G+_gated",
+      "G",
+      "G+_ungated",
+      "wait_heavy",
+      "reply_greedy",
+      "human_rules"
+    ],
+    "fqe": {
+      "reply_greedy": {
+        "V_pipeline": 5.297397,
+        "V_trust": 43.835547,
+        "ratio": 0.120847
+      },
+      "wait_heavy": {
+        "V_pipeline": 0.18261,
+        "V_trust": 2.670585,
+        "ratio": 0.068378
+      },
+      "G": {
+        "V_pipeline": 3.473448,
+        "V_trust": 8.411136,
+        "ratio": 0.412958
+      },
+      "G+_gated": {
+        "V_pipeline": 3.480144,
+        "V_trust": 8.401351,
+        "ratio": 0.414236
+      },
+      "G+_ungated": {
+        "V_pipeline": 6.972068,
+        "V_trust": 20.638041,
+        "ratio": 0.337826
+      },
+      "_rank_ratio": [
+        "G+_gated",
+        "G",
+        "G+_ungated",
+        "reply_greedy",
+        "wait_heavy"
+      ]
+    },
+    "fqe_spearman_vs_truth": 0.9,
+    "fqe_rank": [
+      "G+_gated",
+      "G",
+      "G+_ungated",
+      "reply_greedy",
+      "wait_heavy"
+    ],
+    "sequential_DR_fullfit": {
+      "reply_greedy": {
+        "DR_pipeline_per_account": 4.675,
+        "DR_se_bootstrap": 0.5775,
+        "ESS_week7": 0.0,
+        "ESS_week15": 0.0,
+        "ESS_week23": 0.0,
+        "n_trajectories": 200
+      },
+      "wait_heavy": {
+        "DR_pipeline_per_account": 0.1752,
+        "DR_se_bootstrap": 0.0355,
+        "ESS_week7": 11.6,
+        "ESS_week15": 3.0,
+        "ESS_week23": 0.0,
+        "n_trajectories": 200
+      },
+      "G": {
+        "DR_pipeline_per_account": 1.3335,
+        "DR_se_bootstrap": 9.5598,
+        "ESS_week7": 17.8,
+        "ESS_week15": 4.7,
+        "ESS_week23": 0.0,
+        "n_trajectories": 200
+      },
+      "G+_gated": {
+        "DR_pipeline_per_account": 1.3373,
+        "DR_se_bootstrap": 9.5596,
+        "ESS_week7": 17.8,
+        "ESS_week15": 4.7,
+        "ESS_week23": 0.0,
+        "n_trajectories": 200
+      },
+      "G+_ungated": {
+        "DR_pipeline_per_account": 7.4096,
+        "DR_se_bootstrap": 1.9772,
+        "ESS_week7": 17.8,
+        "ESS_week15": 1.0,
+        "ESS_week23": 0.0,
+        "n_trajectories": 200
+      }
+    },
+    "sequential_DR_rank": [
+      "G+_ungated",
+      "reply_greedy",
+      "G+_gated",
+      "G",
+      "wait_heavy"
+    ],
+    "sequential_DR_spearman_vs_truth": 1.0
+  },
+  "large": {
+    "config": {
+      "seed": 502,
+      "accounts": 1000,
+      "weeks": 24,
+      "eps": 0.3
+    },
+    "truth_per_account_pipeline": {
+      "reply_greedy": 3.073,
+      "wait_heavy": 0.687,
+      "G": 3.011,
+      "G+_gated": 2.834,
+      "G+_ungated": 3.1185
+    },
+    "truth_ratio": {
+      "reply_greedy": 0.0858,
+      "wait_heavy": 0.2346,
+      "G": 0.314,
+      "G+_gated": 0.2816,
+      "G+_ungated": 0.2002
+    },
+    "truth_rank_ratio": [
+      "G",
+      "G+_gated",
+      "wait_heavy",
+      "G+_ungated",
+      "reply_greedy"
+    ],
+    "fqe": {
+      "reply_greedy": {
+        "V_pipeline": 5.546293,
+        "V_trust": 37.02403,
+        "ratio": 0.149803
+      },
+      "wait_heavy": {
+        "V_pipeline": 0.256758,
+        "V_trust": 2.730477,
+        "ratio": 0.094034
+      },
+      "G": {
+        "V_pipeline": 1.833723,
+        "V_trust": 8.136506,
+        "ratio": 0.22537
+      },
+      "G+_gated": {
+        "V_pipeline": 1.833723,
+        "V_trust": 8.136506,
+        "ratio": 0.22537
+      },
+      "G+_ungated": {
+        "V_pipeline": 3.019725,
+        "V_trust": 16.237829,
+        "ratio": 0.185969
+      },
+      "_rank_ratio": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "reply_greedy",
+        "wait_heavy"
+      ]
+    },
+    "fqe_spearman_vs_truth": 0.7,
+    "fqe_rank": [
+      "G",
+      "G+_gated",
+      "G+_ungated",
+      "reply_greedy",
+      "wait_heavy"
+    ]
+  },
+  "low_eps": {
+    "config": {
+      "seed": 503,
+      "accounts": 200,
+      "weeks": 24,
+      "eps": 0.1
+    },
+    "truth_ratio": {
+      "reply_greedy": 0.0535,
+      "wait_heavy": 0.2131,
+      "G": 0.2485,
+      "G+_gated": 0.3919,
+      "G+_ungated": 0.2498
+    },
+    "truth_rank_ratio": [
+      "G+_gated",
+      "G+_ungated",
+      "G",
+      "wait_heavy",
+      "reply_greedy"
+    ],
+    "fqe": {
+      "reply_greedy": {
+        "V_pipeline": 4.280708,
+        "V_trust": 50.443969,
+        "ratio": 0.084861
+      },
+      "wait_heavy": {
+        "V_pipeline": 0.438526,
+        "V_trust": 2.320684,
+        "ratio": 0.188964
+      },
+      "G": {
+        "V_pipeline": 3.206572,
+        "V_trust": 8.739641,
+        "ratio": 0.3669
+      },
+      "G+_gated": {
+        "V_pipeline": 3.213221,
+        "V_trust": 8.742536,
+        "ratio": 0.367539
+      },
+      "G+_ungated": {
+        "V_pipeline": 4.589442,
+        "V_trust": 21.253104,
+        "ratio": 0.215942
+      },
+      "_rank_ratio": [
+        "G+_gated",
+        "G",
+        "G+_ungated",
+        "wait_heavy",
+        "reply_greedy"
+      ]
+    },
+    "fqe_spearman_vs_truth": 0.9,
+    "fqe_rank": [
+      "G+_gated",
+      "G",
+      "G+_ungated",
+      "wait_heavy",
+      "reply_greedy"
+    ]
+  },
+  "warm_grid": {
+    "baseline_warm": {
+      "params": {
+        "warm_prob": 0.3,
+        "warm_boost": 1.8,
+        "warm_override": 0.5
+      },
+      "fqe_ratio": {
+        "reply_greedy": 0.103614,
+        "wait_heavy": 0.044828,
+        "G": 0.551853,
+        "G+_gated": 0.551853,
+        "G+_ungated": 0.430024
+      },
+      "fqe_rank": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "reply_greedy",
+        "wait_heavy"
+      ],
+      "truth_ratio": {
+        "reply_greedy": 0.1102,
+        "wait_heavy": 0.1035,
+        "G": 0.3371,
+        "G+_gated": 0.3371,
+        "G+_ungated": 0.32
+      },
+      "truth_rank": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "reply_greedy",
+        "wait_heavy"
+      ],
+      "fqe_spearman_vs_truth": 1.0,
+      "fqe_gated_minus_ungated": 0.1218,
+      "truth_gated_minus_ungated": 0.0171,
+      "fqe_gated_minus_G": 0.0,
+      "truth_gated_minus_G": 0.0
+    },
+    "prob0.5": {
+      "params": {
+        "warm_prob": 0.5,
+        "warm_boost": 1.8,
+        "warm_override": 0.5
+      },
+      "fqe_ratio": {
+        "reply_greedy": 0.086071,
+        "wait_heavy": 0.073826,
+        "G": 0.209994,
+        "G+_gated": 0.209994,
+        "G+_ungated": 0.146271
+      },
+      "fqe_rank": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "reply_greedy",
+        "wait_heavy"
+      ],
+      "truth_ratio": {
+        "reply_greedy": 0.1273,
+        "wait_heavy": 0.1864,
+        "G": 0.4029,
+        "G+_gated": 0.4029,
+        "G+_ungated": 0.3688
+      },
+      "truth_rank": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "wait_heavy",
+        "reply_greedy"
+      ],
+      "fqe_spearman_vs_truth": 0.9,
+      "fqe_gated_minus_ungated": 0.0637,
+      "truth_gated_minus_ungated": 0.0341,
+      "fqe_gated_minus_G": 0.0,
+      "truth_gated_minus_G": 0.0
+    },
+    "boost3.0": {
+      "params": {
+        "warm_prob": 0.3,
+        "warm_boost": 3.0,
+        "warm_override": 0.5
+      },
+      "fqe_ratio": {
+        "reply_greedy": 0.132621,
+        "wait_heavy": 0.048033,
+        "G": 0.779781,
+        "G+_gated": 0.779781,
+        "G+_ungated": 0.563588
+      },
+      "fqe_rank": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "reply_greedy",
+        "wait_heavy"
+      ],
+      "truth_ratio": {
+        "reply_greedy": 0.141,
+        "wait_heavy": 0.1035,
+        "G": 0.4254,
+        "G+_gated": 0.4254,
+        "G+_ungated": 0.39
+      },
+      "truth_rank": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "reply_greedy",
+        "wait_heavy"
+      ],
+      "fqe_spearman_vs_truth": 1.0,
+      "fqe_gated_minus_ungated": 0.2162,
+      "truth_gated_minus_ungated": 0.0354,
+      "fqe_gated_minus_G": 0.0,
+      "truth_gated_minus_G": 0.0
+    },
+    "override0.9": {
+      "params": {
+        "warm_prob": 0.3,
+        "warm_boost": 1.8,
+        "warm_override": 0.9
+      },
+      "fqe_ratio": {
+        "reply_greedy": 0.105861,
+        "wait_heavy": 0.09128,
+        "G": 0.116699,
+        "G+_gated": 0.116699,
+        "G+_ungated": 0.13249
+      },
+      "fqe_rank": [
+        "G+_ungated",
+        "G",
+        "G+_gated",
+        "reply_greedy",
+        "wait_heavy"
+      ],
+      "truth_ratio": {
+        "reply_greedy": 0.1102,
+        "wait_heavy": 0.1035,
+        "G": 0.3371,
+        "G+_gated": 0.3371,
+        "G+_ungated": 0.32
+      },
+      "truth_rank": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "reply_greedy",
+        "wait_heavy"
+      ],
+      "fqe_spearman_vs_truth": 0.7,
+      "fqe_gated_minus_ungated": -0.0158,
+      "truth_gated_minus_ungated": 0.0171,
+      "fqe_gated_minus_G": 0.0,
+      "truth_gated_minus_G": 0.0
+    },
+    "strong": {
+      "params": {
+        "warm_prob": 0.5,
+        "warm_boost": 3.0,
+        "warm_override": 0.9
+      },
+      "fqe_ratio": {
+        "reply_greedy": 0.191029,
+        "wait_heavy": 0.144957,
+        "G": 0.165908,
+        "G+_gated": 0.165908,
+        "G+_ungated": 0.163363
+      },
+      "fqe_rank": [
+        "reply_greedy",
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "wait_heavy"
+      ],
+      "truth_ratio": {
+        "reply_greedy": 0.1839,
+        "wait_heavy": 0.3106,
+        "G": 0.5899,
+        "G+_gated": 0.5899,
+        "G+_ungated": 0.512
+      },
+      "truth_rank": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "wait_heavy",
+        "reply_greedy"
+      ],
+      "fqe_spearman_vs_truth": 0.0,
+      "fqe_gated_minus_ungated": 0.0025,
+      "truth_gated_minus_ungated": 0.0779,
+      "fqe_gated_minus_G": 0.0,
+      "truth_gated_minus_G": 0.0
+    },
+    "override_only_no_boost": {
+      "params": {
+        "warm_prob": 0.3,
+        "warm_boost": 1.0,
+        "warm_override": 0.5
+      },
+      "fqe_ratio": {
+        "reply_greedy": 0.084277,
+        "wait_heavy": 0.042692,
+        "G": 0.399901,
+        "G+_gated": 0.399901,
+        "G+_ungated": 0.340981
+      },
+      "fqe_rank": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "reply_greedy",
+        "wait_heavy"
+      ],
+      "truth_ratio": {
+        "reply_greedy": 0.0896,
+        "wait_heavy": 0.1035,
+        "G": 0.2782,
+        "G+_gated": 0.2782,
+        "G+_ungated": 0.2733
+      },
+      "truth_rank": [
+        "G",
+        "G+_gated",
+        "G+_ungated",
+        "wait_heavy",
+        "reply_greedy"
+      ],
+      "fqe_spearman_vs_truth": 0.9,
+      "fqe_gated_minus_ungated": 0.0589,
+      "truth_gated_minus_ungated": 0.0049,
+      "fqe_gated_minus_G": 0.0,
+      "truth_gated_minus_G": 0.0
+    }
+  }
+}

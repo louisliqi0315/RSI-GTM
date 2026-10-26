@@ -1,0 +1,1099 @@
+{
+  "disclaimer": "SYNTHETIC ONLY — 全部合成数据，不是真实厂商数据。",
+  "main_1000": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "label": "1000 accounts, seeds 0-9, baseline params",
+    "policies": {
+      "reply_greedy": {
+        "mean_pipeline_per_trust": 0.0797,
+        "sd": 0.0085,
+        "ci95_halfwidth": 0.0053,
+        "median": 0.0775,
+        "mean_pipeline": 2846.1,
+        "mean_reputation_change": -0.8593,
+        "per_seed": {
+          "0": 0.0755,
+          "1": 0.0712,
+          "2": 0.0794,
+          "3": 0.0765,
+          "4": 0.0757,
+          "5": 0.0907,
+          "6": 0.0785,
+          "7": 0.0815,
+          "8": 0.0706,
+          "9": 0.0978
+        }
+      },
+      "human_rules": {
+        "mean_pipeline_per_trust": 0.1169,
+        "sd": 0.0157,
+        "ci95_halfwidth": 0.0097,
+        "median": 0.1133,
+        "mean_pipeline": 2311.6,
+        "mean_reputation_change": -0.3589,
+        "per_seed": {
+          "0": 0.1087,
+          "1": 0.1074,
+          "2": 0.124,
+          "3": 0.1178,
+          "4": 0.1314,
+          "5": 0.097,
+          "6": 0.1076,
+          "7": 0.1237,
+          "8": 0.1492,
+          "9": 0.1021
+        }
+      },
+      "wait_heavy": {
+        "mean_pipeline_per_trust": 0.1686,
+        "sd": 0.0302,
+        "ci95_halfwidth": 0.0187,
+        "median": 0.1693,
+        "mean_pipeline": 479.3,
+        "mean_reputation_change": -0.0155,
+        "per_seed": {
+          "0": 0.2145,
+          "1": 0.1667,
+          "2": 0.1913,
+          "3": 0.1231,
+          "4": 0.152,
+          "5": 0.1822,
+          "6": 0.1718,
+          "7": 0.1462,
+          "8": 0.1333,
+          "9": 0.2048
+        }
+      },
+      "G": {
+        "mean_pipeline_per_trust": 0.2859,
+        "sd": 0.024,
+        "ci95_halfwidth": 0.0149,
+        "median": 0.288,
+        "mean_pipeline": 2780.3,
+        "mean_reputation_change": -0.1737,
+        "per_seed": {
+          "0": 0.2629,
+          "1": 0.2501,
+          "2": 0.2909,
+          "3": 0.2883,
+          "4": 0.3226,
+          "5": 0.2661,
+          "6": 0.2878,
+          "7": 0.2883,
+          "8": 0.2773,
+          "9": 0.3251
+        }
+      },
+      "G+_gated": {
+        "mean_pipeline_per_trust": 0.2861,
+        "sd": 0.0384,
+        "ci95_halfwidth": 0.0238,
+        "median": 0.2774,
+        "mean_pipeline": 2376.0,
+        "mean_reputation_change": -0.141,
+        "per_seed": {
+          "0": 0.2259,
+          "1": 0.252,
+          "2": 0.2716,
+          "3": 0.3356,
+          "4": 0.2631,
+          "5": 0.3525,
+          "6": 0.2824,
+          "7": 0.3111,
+          "8": 0.2724,
+          "9": 0.294
+        }
+      },
+      "G+_ungated": {
+        "mean_pipeline_per_trust": 0.1867,
+        "sd": 0.0225,
+        "ci95_halfwidth": 0.0139,
+        "median": 0.1833,
+        "mean_pipeline": 2942.8,
+        "mean_reputation_change": -0.3382,
+        "per_seed": {
+          "0": 0.1807,
+          "1": 0.1706,
+          "2": 0.1704,
+          "3": 0.1763,
+          "4": 0.197,
+          "5": 0.1858,
+          "6": 0.202,
+          "7": 0.1483,
+          "8": 0.2101,
+          "9": 0.2256
+        }
+      }
+    },
+    "pairs": {
+      "gated_minus_ungated": {
+        "n": 10,
+        "mean_diff": 0.0994,
+        "sd_diff": 0.0462,
+        "ci95_t": [
+          0.0664,
+          0.1324
+        ],
+        "bootstrap_ci95": [
+          0.0735,
+          0.1272
+        ],
+        "wins": "10/10",
+        "sign_test_p_one_sided": 0.001,
+        "wilcoxon_gamma": {
+          "T_obs": 55.0,
+          "p_gamma1": 0.001,
+          "gamma_threshold": 3.0
+        },
+        "per_seed_diff": [
+          0.0452,
+          0.0814,
+          0.1012,
+          0.1592,
+          0.0662,
+          0.1667,
+          0.0805,
+          0.1627,
+          0.0623,
+          0.0684
+        ]
+      },
+      "gated_minus_G": {
+        "n": 10,
+        "mean_diff": 0.0001,
+        "sd_diff": 0.0428,
+        "ci95_t": [
+          -0.0305,
+          0.0307
+        ],
+        "bootstrap_ci95": [
+          -0.0241,
+          0.0258
+        ],
+        "wins": "4/10",
+        "sign_test_p_one_sided": 0.8281,
+        "wilcoxon_gamma": {
+          "T_obs": 24.0,
+          "p_gamma1": 0.6523,
+          "gamma_threshold": "already_nonsignificant_at_gamma1"
+        },
+        "per_seed_diff": [
+          -0.037,
+          0.0019,
+          -0.0192,
+          0.0473,
+          -0.0595,
+          0.0863,
+          -0.0053,
+          0.0228,
+          -0.005,
+          -0.0311
+        ]
+      }
+    }
+  },
+  "reuse_200": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "label": "200 accounts, seeds 0-9, from phase2b_multiseed_results.json (paired stats only)",
+    "policies": {
+      "reply_greedy": {
+        "mean_pipeline_per_trust": 0.0888,
+        "sd": 0.017,
+        "ci95_halfwidth": 0.0105,
+        "median": 0.0882,
+        "mean_pipeline": 0.0,
+        "mean_reputation_change": 0.0,
+        "per_seed": {
+          "0": 0.0985,
+          "1": 0.0688,
+          "2": 0.1082,
+          "3": 0.0671,
+          "4": 0.0699,
+          "5": 0.1146,
+          "6": 0.1021,
+          "7": 0.0891,
+          "8": 0.0823,
+          "9": 0.0872
+        }
+      },
+      "human_rules": {
+        "mean_pipeline_per_trust": 0.1432,
+        "sd": 0.0311,
+        "ci95_halfwidth": 0.0193,
+        "median": 0.1464,
+        "mean_pipeline": 0.0,
+        "mean_reputation_change": 0.0,
+        "per_seed": {
+          "0": 0.1379,
+          "1": 0.1157,
+          "2": 0.1356,
+          "3": 0.1856,
+          "4": 0.0898,
+          "5": 0.1721,
+          "6": 0.1549,
+          "7": 0.1087,
+          "8": 0.165,
+          "9": 0.1671
+        }
+      },
+      "wait_heavy": {
+        "mean_pipeline_per_trust": 0.1329,
+        "sd": 0.0874,
+        "ci95_halfwidth": 0.0542,
+        "median": 0.1177,
+        "mean_pipeline": 0.0,
+        "mean_reputation_change": 0.0,
+        "per_seed": {
+          "0": 0.0348,
+          "1": 0.1509,
+          "2": 0.0846,
+          "3": 0.2116,
+          "4": 0.2436,
+          "5": 0.0669,
+          "6": 0.2145,
+          "7": 0.2361,
+          "8": 0.0515,
+          "9": 0.0342
+        }
+      },
+      "G": {
+        "mean_pipeline_per_trust": 0.3086,
+        "sd": 0.0652,
+        "ci95_halfwidth": 0.0404,
+        "median": 0.297,
+        "mean_pipeline": 0.0,
+        "mean_reputation_change": 0.0,
+        "per_seed": {
+          "0": 0.2891,
+          "1": 0.2143,
+          "2": 0.3609,
+          "3": 0.3048,
+          "4": 0.2428,
+          "5": 0.408,
+          "6": 0.3126,
+          "7": 0.2839,
+          "8": 0.2637,
+          "9": 0.4056
+        }
+      },
+      "G+_gated": {
+        "mean_pipeline_per_trust": 0.3192,
+        "sd": 0.0807,
+        "ci95_halfwidth": 0.05,
+        "median": 0.3123,
+        "mean_pipeline": 0.0,
+        "mean_reputation_change": 0.0,
+        "per_seed": {
+          "0": 0.5291,
+          "1": 0.237,
+          "2": 0.2898,
+          "3": 0.3304,
+          "4": 0.2751,
+          "5": 0.3145,
+          "6": 0.3207,
+          "7": 0.2519,
+          "8": 0.3333,
+          "9": 0.31
+        }
+      },
+      "G+_ungated": {
+        "mean_pipeline_per_trust": 0.2397,
+        "sd": 0.0429,
+        "ci95_halfwidth": 0.0266,
+        "median": 0.2291,
+        "mean_pipeline": 0.0,
+        "mean_reputation_change": 0.0,
+        "per_seed": {
+          "0": 0.3422,
+          "1": 0.2509,
+          "2": 0.2586,
+          "3": 0.2376,
+          "4": 0.2004,
+          "5": 0.2088,
+          "6": 0.214,
+          "7": 0.2205,
+          "8": 0.2011,
+          "9": 0.2632
+        }
+      }
+    },
+    "pairs": {
+      "gated_minus_ungated": {
+        "n": 10,
+        "mean_diff": 0.0795,
+        "sd_diff": 0.0581,
+        "ci95_t": [
+          0.0379,
+          0.121
+        ],
+        "bootstrap_ci95": [
+          0.0462,
+          0.1139
+        ],
+        "wins": "9/10",
+        "sign_test_p_one_sided": 0.0107,
+        "wilcoxon_gamma": {
+          "T_obs": 54.0,
+          "p_gamma1": 0.002,
+          "gamma_threshold": 3.0
+        },
+        "per_seed_diff": [
+          0.1869,
+          -0.0139,
+          0.0312,
+          0.0928,
+          0.0747,
+          0.1057,
+          0.1067,
+          0.0314,
+          0.1322,
+          0.0468
+        ]
+      },
+      "gated_minus_G": {
+        "n": 10,
+        "mean_diff": 0.0106,
+        "sd_diff": 0.0986,
+        "ci95_t": [
+          -0.0599,
+          0.0812
+        ],
+        "bootstrap_ci95": [
+          -0.042,
+          0.0713
+        ],
+        "wins": "6/10",
+        "sign_test_p_one_sided": 0.377,
+        "wilcoxon_gamma": {
+          "T_obs": 27.0,
+          "p_gamma1": 0.5391,
+          "gamma_threshold": "already_nonsignificant_at_gamma1"
+        },
+        "per_seed_diff": [
+          0.24,
+          0.0227,
+          -0.0711,
+          0.0256,
+          0.0323,
+          -0.0935,
+          0.0081,
+          -0.032,
+          0.0696,
+          -0.0956
+        ]
+      }
+    }
+  },
+  "mechanism_scans_200": [
+    {
+      "label": "baseline",
+      "patches": {},
+      "mean_gated": 0.3519,
+      "mean_G": 0.2881,
+      "mean_ungated": 0.2839,
+      "pairs": {
+        "gated_minus_ungated": {
+          "n": 3,
+          "mean_diff": 0.068,
+          "sd_diff": 0.1054,
+          "ci95_t": [
+            -0.1938,
+            0.3299
+          ],
+          "bootstrap_ci95": [
+            -0.014,
+            0.1869
+          ],
+          "wins": "2/3",
+          "sign_test_p_one_sided": 0.5,
+          "wilcoxon_gamma": {
+            "T_obs": 5.0,
+            "p_gamma1": 0.25,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.1869,
+            -0.014,
+            0.0311
+          ]
+        },
+        "gated_minus_G": {
+          "n": 3,
+          "mean_diff": 0.0638,
+          "sd_diff": 0.1596,
+          "ci95_t": [
+            -0.3326,
+            0.4603
+          ],
+          "bootstrap_ci95": [
+            -0.0711,
+            0.24
+          ],
+          "wins": "2/3",
+          "sign_test_p_one_sided": 0.5,
+          "wilcoxon_gamma": {
+            "T_obs": 4.0,
+            "p_gamma1": 0.375,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.24,
+            0.0226,
+            -0.0711
+          ]
+        }
+      }
+    },
+    {
+      "label": "fatigue0.15",
+      "patches": {
+        "FATIGUE_COEF": 0.15
+      },
+      "mean_gated": 0.3469,
+      "mean_G": 0.2862,
+      "mean_ungated": 0.2499,
+      "pairs": {
+        "gated_minus_ungated": {
+          "n": 3,
+          "mean_diff": 0.097,
+          "sd_diff": 0.072,
+          "ci95_t": [
+            -0.0819,
+            0.2759
+          ],
+          "bootstrap_ci95": [
+            0.0236,
+            0.1675
+          ],
+          "wins": "3/3",
+          "sign_test_p_one_sided": 0.125,
+          "wilcoxon_gamma": {
+            "T_obs": 6.0,
+            "p_gamma1": 0.125,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.1,
+            0.1675,
+            0.0236
+          ]
+        },
+        "gated_minus_G": {
+          "n": 3,
+          "mean_diff": 0.0607,
+          "sd_diff": 0.0303,
+          "ci95_t": [
+            -0.0147,
+            0.136
+          ],
+          "bootstrap_ci95": [
+            0.0408,
+            0.0956
+          ],
+          "wins": "3/3",
+          "sign_test_p_one_sided": 0.125,
+          "wilcoxon_gamma": {
+            "T_obs": 6.0,
+            "p_gamma1": 0.125,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.0956,
+            0.0408,
+            0.0456
+          ]
+        }
+      }
+    },
+    {
+      "label": "fatigue0.60",
+      "patches": {
+        "FATIGUE_COEF": 0.6
+      },
+      "mean_gated": 0.2166,
+      "mean_G": 0.2126,
+      "mean_ungated": 0.1706,
+      "pairs": {
+        "gated_minus_ungated": {
+          "n": 3,
+          "mean_diff": 0.0461,
+          "sd_diff": 0.0645,
+          "ci95_t": [
+            -0.1141,
+            0.2062
+          ],
+          "bootstrap_ci95": [
+            -0.0197,
+            0.1091
+          ],
+          "wins": "2/3",
+          "sign_test_p_one_sided": 0.5,
+          "wilcoxon_gamma": {
+            "T_obs": 5.0,
+            "p_gamma1": 0.25,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            -0.0197,
+            0.0489,
+            0.1091
+          ]
+        },
+        "gated_minus_G": {
+          "n": 3,
+          "mean_diff": 0.0041,
+          "sd_diff": 0.109,
+          "ci95_t": [
+            -0.2666,
+            0.2748
+          ],
+          "bootstrap_ci95": [
+            -0.1217,
+            0.0712
+          ],
+          "wins": "2/3",
+          "sign_test_p_one_sided": 0.5,
+          "wilcoxon_gamma": {
+            "T_obs": 3.0,
+            "p_gamma1": 0.625,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            -0.1217,
+            0.0712,
+            0.0626
+          ]
+        }
+      }
+    },
+    {
+      "label": "intent_decay0.95",
+      "patches": {
+        "INTENT_DECAY": 0.95
+      },
+      "mean_gated": 0.3253,
+      "mean_G": 0.3162,
+      "mean_ungated": 0.1944,
+      "pairs": {
+        "gated_minus_ungated": {
+          "n": 3,
+          "mean_diff": 0.1309,
+          "sd_diff": 0.027,
+          "ci95_t": [
+            0.0639,
+            0.198
+          ],
+          "bootstrap_ci95": [
+            0.1051,
+            0.159
+          ],
+          "wins": "3/3",
+          "sign_test_p_one_sided": 0.125,
+          "wilcoxon_gamma": {
+            "T_obs": 6.0,
+            "p_gamma1": 0.125,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.159,
+            0.1051,
+            0.1287
+          ]
+        },
+        "gated_minus_G": {
+          "n": 3,
+          "mean_diff": 0.0091,
+          "sd_diff": 0.1352,
+          "ci95_t": [
+            -0.3268,
+            0.3451
+          ],
+          "bootstrap_ci95": [
+            -0.1301,
+            0.1399
+          ],
+          "wins": "2/3",
+          "sign_test_p_one_sided": 0.5,
+          "wilcoxon_gamma": {
+            "T_obs": 4.0,
+            "p_gamma1": 0.375,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.1399,
+            -0.1301,
+            0.0176
+          ]
+        }
+      }
+    },
+    {
+      "label": "intent_decay0.99",
+      "patches": {
+        "INTENT_DECAY": 0.99
+      },
+      "mean_gated": 0.3668,
+      "mean_G": 0.3415,
+      "mean_ungated": 0.2334,
+      "pairs": {
+        "gated_minus_ungated": {
+          "n": 3,
+          "mean_diff": 0.1334,
+          "sd_diff": 0.0973,
+          "ci95_t": [
+            -0.1082,
+            0.375
+          ],
+          "bootstrap_ci95": [
+            0.066,
+            0.2449
+          ],
+          "wins": "3/3",
+          "sign_test_p_one_sided": 0.125,
+          "wilcoxon_gamma": {
+            "T_obs": 6.0,
+            "p_gamma1": 0.125,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.2449,
+            0.066,
+            0.0893
+          ]
+        },
+        "gated_minus_G": {
+          "n": 3,
+          "mean_diff": 0.0254,
+          "sd_diff": 0.1645,
+          "ci95_t": [
+            -0.3833,
+            0.434
+          ],
+          "bootstrap_ci95": [
+            -0.1029,
+            0.2108
+          ],
+          "wins": "1/3",
+          "sign_test_p_one_sided": 0.875,
+          "wilcoxon_gamma": {
+            "T_obs": 3.0,
+            "p_gamma1": 0.625,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.2108,
+            -0.1029,
+            -0.0318
+          ]
+        }
+      }
+    },
+    {
+      "label": "event_prob0.04",
+      "patches": {
+        "EVENT_PROB": 0.04
+      },
+      "mean_gated": 0.2417,
+      "mean_G": 0.2952,
+      "mean_ungated": 0.1559,
+      "pairs": {
+        "gated_minus_ungated": {
+          "n": 3,
+          "mean_diff": 0.0858,
+          "sd_diff": 0.043,
+          "ci95_t": [
+            -0.021,
+            0.1926
+          ],
+          "bootstrap_ci95": [
+            0.0376,
+            0.1204
+          ],
+          "wins": "3/3",
+          "sign_test_p_one_sided": 0.125,
+          "wilcoxon_gamma": {
+            "T_obs": 6.0,
+            "p_gamma1": 0.125,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.0993,
+            0.1204,
+            0.0376
+          ]
+        },
+        "gated_minus_G": {
+          "n": 3,
+          "mean_diff": -0.0535,
+          "sd_diff": 0.0696,
+          "ci95_t": [
+            -0.2263,
+            0.1193
+          ],
+          "bootstrap_ci95": [
+            -0.1112,
+            0.0237
+          ],
+          "wins": "1/3",
+          "sign_test_p_one_sided": 0.875,
+          "wilcoxon_gamma": {
+            "T_obs": 1.0,
+            "p_gamma1": 0.875,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.0237,
+            -0.073,
+            -0.1112
+          ]
+        }
+      }
+    },
+    {
+      "label": "event_prob0.16",
+      "patches": {
+        "EVENT_PROB": 0.16
+      },
+      "mean_gated": 0.3447,
+      "mean_G": 0.3122,
+      "mean_ungated": 0.2658,
+      "pairs": {
+        "gated_minus_ungated": {
+          "n": 3,
+          "mean_diff": 0.0789,
+          "sd_diff": 0.0378,
+          "ci95_t": [
+            -0.0151,
+            0.1729
+          ],
+          "bootstrap_ci95": [
+            0.0532,
+            0.1223
+          ],
+          "wins": "3/3",
+          "sign_test_p_one_sided": 0.125,
+          "wilcoxon_gamma": {
+            "T_obs": 6.0,
+            "p_gamma1": 0.125,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.1223,
+            0.0613,
+            0.0532
+          ]
+        },
+        "gated_minus_G": {
+          "n": 3,
+          "mean_diff": 0.0325,
+          "sd_diff": 0.1095,
+          "ci95_t": [
+            -0.2396,
+            0.3046
+          ],
+          "bootstrap_ci95": [
+            -0.0678,
+            0.1494
+          ],
+          "wins": "2/3",
+          "sign_test_p_one_sided": 0.5,
+          "wilcoxon_gamma": {
+            "T_obs": 4.0,
+            "p_gamma1": 0.375,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.1494,
+            -0.0678,
+            0.016
+          ]
+        }
+      }
+    },
+    {
+      "label": "damage2x",
+      "patches": {
+        "REPUTATION_DAMAGE_HIGH": 0.03,
+        "REPUTATION_DAMAGE_LOW": 0.06
+      },
+      "mean_gated": 0.3005,
+      "mean_G": 0.2632,
+      "mean_ungated": 0.1779,
+      "pairs": {
+        "gated_minus_ungated": {
+          "n": 3,
+          "mean_diff": 0.1226,
+          "sd_diff": 0.0186,
+          "ci95_t": [
+            0.0764,
+            0.1688
+          ],
+          "bootstrap_ci95": [
+            0.1015,
+            0.1365
+          ],
+          "wins": "3/3",
+          "sign_test_p_one_sided": 0.125,
+          "wilcoxon_gamma": {
+            "T_obs": 6.0,
+            "p_gamma1": 0.125,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.1365,
+            0.1299,
+            0.1015
+          ]
+        },
+        "gated_minus_G": {
+          "n": 3,
+          "mean_diff": 0.0373,
+          "sd_diff": 0.0627,
+          "ci95_t": [
+            -0.1185,
+            0.1931
+          ],
+          "bootstrap_ci95": [
+            -0.0269,
+            0.0984
+          ],
+          "wins": "2/3",
+          "sign_test_p_one_sided": 0.5,
+          "wilcoxon_gamma": {
+            "T_obs": 5.0,
+            "p_gamma1": 0.25,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.0984,
+            0.0405,
+            -0.0269
+          ]
+        }
+      }
+    },
+    {
+      "label": "budget15",
+      "patches": {
+        "TRUST_BUDGET": 15.0
+      },
+      "mean_gated": 0.3464,
+      "mean_G": 0.2644,
+      "mean_ungated": 0.2355,
+      "pairs": {
+        "gated_minus_ungated": {
+          "n": 3,
+          "mean_diff": 0.1109,
+          "sd_diff": 0.1181,
+          "ci95_t": [
+            -0.1824,
+            0.4043
+          ],
+          "bootstrap_ci95": [
+            0.0315,
+            0.2466
+          ],
+          "wins": "3/3",
+          "sign_test_p_one_sided": 0.125,
+          "wilcoxon_gamma": {
+            "T_obs": 6.0,
+            "p_gamma1": 0.125,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.2466,
+            0.0547,
+            0.0315
+          ]
+        },
+        "gated_minus_G": {
+          "n": 3,
+          "mean_diff": 0.082,
+          "sd_diff": 0.1667,
+          "ci95_t": [
+            -0.3323,
+            0.4962
+          ],
+          "bootstrap_ci95": [
+            -0.0175,
+            0.2745
+          ],
+          "wins": "1/3",
+          "sign_test_p_one_sided": 0.875,
+          "wilcoxon_gamma": {
+            "T_obs": 3.0,
+            "p_gamma1": 0.625,
+            "gamma_threshold": "already_nonsignificant_at_gamma1"
+          },
+          "per_seed_diff": [
+            0.2745,
+            -0.0175,
+            -0.011
+          ]
+        }
+      }
+    }
+  ],
+  "damage2x_1000": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "label": "1000 accounts, seeds 0-2, damage 2x",
+    "policies": {
+      "reply_greedy": {
+        "mean_pipeline_per_trust": 0.0703,
+        "sd": 0.0034,
+        "ci95_halfwidth": 0.0039,
+        "median": 0.0695,
+        "mean_pipeline": 2508.0,
+        "mean_reputation_change": -0.95,
+        "per_seed": {
+          "0": 0.0674,
+          "1": 0.0695,
+          "2": 0.0741
+        }
+      },
+      "human_rules": {
+        "mean_pipeline_per_trust": 0.0928,
+        "sd": 0.0137,
+        "ci95_halfwidth": 0.0155,
+        "median": 0.0961,
+        "mean_pipeline": 1831.3,
+        "mean_reputation_change": -0.8089,
+        "per_seed": {
+          "0": 0.0777,
+          "1": 0.1045,
+          "2": 0.0961
+        }
+      },
+      "wait_heavy": {
+        "mean_pipeline_per_trust": 0.1736,
+        "sd": 0.0124,
+        "ci95_halfwidth": 0.0141,
+        "median": 0.1775,
+        "mean_pipeline": 487.3,
+        "mean_reputation_change": -0.0648,
+        "per_seed": {
+          "0": 0.1775,
+          "1": 0.1597,
+          "2": 0.1836
+        }
+      },
+      "G": {
+        "mean_pipeline_per_trust": 0.274,
+        "sd": 0.0086,
+        "ci95_halfwidth": 0.0097,
+        "median": 0.2748,
+        "mean_pipeline": 2033.7,
+        "mean_reputation_change": -0.269,
+        "per_seed": {
+          "0": 0.2821,
+          "1": 0.2651,
+          "2": 0.2748
+        }
+      },
+      "G+_gated": {
+        "mean_pipeline_per_trust": 0.2768,
+        "sd": 0.0461,
+        "ci95_halfwidth": 0.0522,
+        "median": 0.2543,
+        "mean_pipeline": 2180.3,
+        "mean_reputation_change": -0.2867,
+        "per_seed": {
+          "0": 0.2543,
+          "1": 0.2463,
+          "2": 0.3299
+        }
+      },
+      "G+_ungated": {
+        "mean_pipeline_per_trust": 0.2033,
+        "sd": 0.0315,
+        "ci95_halfwidth": 0.0356,
+        "median": 0.1871,
+        "mean_pipeline": 2204.7,
+        "mean_reputation_change": -0.4446,
+        "per_seed": {
+          "0": 0.1871,
+          "1": 0.1833,
+          "2": 0.2396
+        }
+      }
+    },
+    "pairs": {
+      "gated_minus_ungated": {
+        "n": 3,
+        "mean_diff": 0.0735,
+        "sd_diff": 0.0147,
+        "ci95_t": [
+          0.037,
+          0.11
+        ],
+        "bootstrap_ci95": [
+          0.063,
+          0.0903
+        ],
+        "wins": "3/3",
+        "sign_test_p_one_sided": 0.125,
+        "wilcoxon_gamma": {
+          "T_obs": 6.0,
+          "p_gamma1": 0.125,
+          "gamma_threshold": "already_nonsignificant_at_gamma1"
+        },
+        "per_seed_diff": [
+          0.0672,
+          0.063,
+          0.0903
+        ]
+      },
+      "gated_minus_G": {
+        "n": 3,
+        "mean_diff": 0.0028,
+        "sd_diff": 0.0455,
+        "ci95_t": [
+          -0.1101,
+          0.1158
+        ],
+        "bootstrap_ci95": [
+          -0.0278,
+          0.0551
+        ],
+        "wins": "1/3",
+        "sign_test_p_one_sided": 0.875,
+        "wilcoxon_gamma": {
+          "T_obs": 3.0,
+          "p_gamma1": 0.625,
+          "gamma_threshold": "already_nonsignificant_at_gamma1"
+        },
+        "per_seed_diff": [
+          -0.0278,
+          -0.0187,
+          0.0551
+        ]
+      }
+    }
+  }
+}

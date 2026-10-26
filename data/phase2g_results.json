@@ -1,0 +1,1674 @@
+{
+  "config": {
+    "accounts": 1000,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "weeks": 24,
+    "note": "W and STATIC from phase2f_sim.run_arm_f via phase2g_sim (identical to 2f); no parameter changes."
+  },
+  "arms": {
+    "W": {
+      "pipeline_per_trust": {
+        "mean": 0.30487133476652145,
+        "ci95": [
+          0.2942459032166819,
+          0.315496766316361
+        ]
+      },
+      "claimed_pipeline_per_trust": {
+        "mean": 0.30487133476652145,
+        "ci95": [
+          0.2942459032166819,
+          0.315496766316361
+        ]
+      },
+      "separation_gap": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "unsubscribe_rate_per_100_touches": {
+        "mean": 0.7915060678451429,
+        "ci95": [
+          0.7563290676955925,
+          0.8266830679946933
+        ]
+      },
+      "complaint_rate_per_100_touches": {
+        "mean": 0.31151311113369157,
+        "ci95": [
+          0.2835809650633595,
+          0.33944525720402363
+        ]
+      },
+      "mean_reputation_change": {
+        "mean": -0.17104266666666681,
+        "ci95": [
+          -0.17482704089174997,
+          -0.16725829244158366
+        ]
+      },
+      "pipeline": {
+        "mean": 2950.3333333333335,
+        "ci95": [
+          2852.699776078579,
+          3047.966890588088
+        ]
+      },
+      "trust_consumed": {
+        "mean": 9686.916666666666,
+        "ci95": [
+          9571.059513223876,
+          9802.773820109456
+        ]
+      },
+      "wait_share": {
+        "mean": 0.7079694444444444,
+        "ci95": [
+          0.7057184412120486,
+          0.7102204476768402
+        ]
+      },
+      "fake_adoptions_total": 0,
+      "adoptions_total": 8,
+      "vetoes_total": 52
+    },
+    "STATIC": {
+      "pipeline_per_trust": {
+        "mean": 0.29735893406231906,
+        "ci95": [
+          0.28701530847138096,
+          0.30770255965325716
+        ]
+      },
+      "claimed_pipeline_per_trust": {
+        "mean": 0.29735893406231906,
+        "ci95": [
+          0.28701530847138096,
+          0.30770255965325716
+        ]
+      },
+      "separation_gap": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "unsubscribe_rate_per_100_touches": {
+        "mean": 0.7711359738884191,
+        "ci95": [
+          0.731723741149855,
+          0.8105482066269833
+        ]
+      },
+      "complaint_rate_per_100_touches": {
+        "mean": 0.3128630749536225,
+        "ci95": [
+          0.28566748740048,
+          0.340058662506765
+        ]
+      },
+      "mean_reputation_change": {
+        "mean": -0.17694716666666682,
+        "ci95": [
+          -0.17865496458254587,
+          -0.17523936875078777
+        ]
+      },
+      "pipeline": {
+        "mean": 2925.3333333333335,
+        "ci95": [
+          2824.996244537863,
+          3025.670422128804
+        ]
+      },
+      "trust_consumed": {
+        "mean": 9841.416666666666,
+        "ci95": [
+          9760.54328020902,
+          9922.290053124312
+        ]
+      },
+      "wait_share": {
+        "mean": 0.7059097222222223,
+        "ci95": [
+          0.7041369854791176,
+          0.7076824589653269
+        ]
+      },
+      "fake_adoptions_total": 0,
+      "adoptions_total": 0,
+      "vetoes_total": 0
+    }
+  },
+  "empty_seeds_W": [
+    1,
+    3,
+    4,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "empty_seed_count_W": 22,
+  "anchor_empty_seeds_equal": true,
+  "paired_W_minus_STATIC": {
+    "mean": 0.0075124007042023655,
+    "ci95": [
+      0.0009521618547978948,
+      0.014072639553606835
+    ],
+    "wins": 7,
+    "losses": 1,
+    "ties": 22,
+    "n": 30,
+    "diffs": [
+      0.0183241343986007,
+      0.0,
+      0.055987699286535075,
+      0.0,
+      0.0,
+      0.016901191925553616,
+      0.04014726945858865,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07014356446032965,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0069854060031399046,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0006930288741226476,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.01757578446744601
+    ]
+  },
+  "sensitivity_excluding_empty_W": {
+    "mean": 0.02817150264075887,
+    "ci95": [
+      0.007454633348109221,
+      0.04888837193340852
+    ],
+    "wins": 7,
+    "losses": 1,
+    "ties": 0,
+    "n": 8,
+    "diffs": [
+      0.0183241343986007,
+      0.055987699286535075,
+      0.016901191925553616,
+      0.04014726945858865,
+      0.07014356446032965,
+      0.0069854060031399046,
+      -0.0006930288741226476,
+      0.01757578446744601
+    ]
+  },
+  "sensitivity_kept_seeds": [
+    0,
+    2,
+    5,
+    6,
+    11,
+    17,
+    22,
+    29
+  ],
+  "paired_harm": {
+    "unsubscribe_rate_per_100_touches": {
+      "mean": 0.020370093956723793,
+      "ci95": [
+        -0.0018278313775420517,
+        0.042568019290989634
+      ],
+      "wins": 6,
+      "losses": 2,
+      "ties": 22,
+      "n": 30,
+      "diffs": [
+        0.17080656283035422,
+        0.0,
+        0.13783434363627511,
+        0.0,
+        0.0,
+        0.031126576570361775,
+        -0.052216163925776105,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.13088614187946734,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.08353239273984692,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11765241187444342,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.15854533857643488
+      ]
+    },
+    "mean_reputation_change": {
+      "mean": 0.005904500000000005,
+      "ci95": [
+        0.002128357433663377,
+        0.009680642566336634
+      ],
+      "wins": 8,
+      "losses": 0,
+      "ties": 22,
+      "n": 30,
+      "diffs": [
+        0.02432500000000004,
+        0.0,
+        0.01931000000000005,
+        0.0,
+        0.0,
+        0.029364999999999974,
+        0.019815000000000027,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.02078000000000002,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.02436000000000005,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.019685000000000064,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.01949499999999993
+      ]
+    },
+    "complaint_rate_per_100_touches": {
+      "mean": -0.0013499638199309383,
+      "ci95": [
+        -0.019136204890277436,
+        0.01643627725041556
+      ],
+      "wins": 3,
+      "losses": 5,
+      "ties": 22,
+      "n": 30,
+      "diffs": [
+        0.1226717972180836,
+        0.0,
+        -0.05458134790940289,
+        0.0,
+        0.0,
+        0.01469735004745415,
+        0.16389105469411916,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.07069781706609346,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.07586197603409395,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.062487947669593924,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.07813002787840084
+      ]
+    }
+  },
+  "per_seed": {
+    "W": [
+      {
+        "pipeline_per_trust": 0.3011544164371955,
+        "claimed_pipeline_per_trust": 0.3011544164371955,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 1,
+        "vetoes": 1,
+        "empty_comparison": false,
+        "unsubscribe_rate_per_100_touches": 0.9267840593141798,
+        "complaint_rate_per_100_touches": 0.3336422613531047,
+        "mean_reputation_change": -0.15813500000000014,
+        "pipeline": 2843.5,
+        "trust_consumed": 9442.0,
+        "wait_share": 0.711375,
+        "final_config": {
+          "workflow": "W1",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2700518754988029,
+        "claimed_pipeline_per_trust": 0.2700518754988029,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8565310492505354,
+        "complaint_rate_per_100_touches": 0.28551034975017847,
+        "mean_reputation_change": -0.1776850000000002,
+        "pipeline": 2707.0,
+        "trust_consumed": 10024.0,
+        "wait_share": 0.705125,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.32957776139833633,
+        "claimed_pipeline_per_trust": 0.32957776139833633,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 1,
+        "vetoes": 1,
+        "empty_comparison": false,
+        "unsubscribe_rate_per_100_touches": 0.7604562737642585,
+        "complaint_rate_per_100_touches": 0.32590983161325365,
+        "mean_reputation_change": -0.16151500000000008,
+        "pipeline": 3130.0,
+        "trust_consumed": 9497.0,
+        "wait_share": 0.7075416666666666,
+        "final_config": {
+          "workflow": "W1",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.33555869596998195,
+        "claimed_pipeline_per_trust": 0.33555869596998195,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7181942544459644,
+        "complaint_rate_per_100_touches": 0.307797537619699,
+        "mean_reputation_change": -0.18681500000000018,
+        "pipeline": 3443.0,
+        "trust_consumed": 10260.5,
+        "wait_share": 0.6974583333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.26295841016185206,
+        "claimed_pipeline_per_trust": 0.26295841016185206,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8175872093023255,
+        "complaint_rate_per_100_touches": 0.30886627906976744,
+        "mean_reputation_change": -0.17488000000000015,
+        "pipeline": 2567.0,
+        "trust_consumed": 9762.0,
+        "wait_share": 0.7104583333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3447464275707481,
+        "claimed_pipeline_per_trust": 0.3447464275707481,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 1,
+        "vetoes": 1,
+        "empty_comparison": false,
+        "unsubscribe_rate_per_100_touches": 0.7776669990029911,
+        "complaint_rate_per_100_touches": 0.37886340977068794,
+        "mean_reputation_change": -0.14794000000000018,
+        "pipeline": 3076.0,
+        "trust_consumed": 8922.5,
+        "wait_share": 0.7225416666666666,
+        "final_config": {
+          "workflow": "W1",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.29814087457449595,
+        "claimed_pipeline_per_trust": 0.29814087457449595,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 1,
+        "vetoes": 1,
+        "empty_comparison": false,
+        "unsubscribe_rate_per_100_touches": 0.677710843373494,
+        "complaint_rate_per_100_touches": 0.3953313253012048,
+        "mean_reputation_change": -0.15788000000000013,
+        "pipeline": 2846.5,
+        "trust_consumed": 9547.5,
+        "wait_share": 0.7131666666666666,
+        "final_config": {
+          "workflow": "W1",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.31107509454349,
+        "claimed_pipeline_per_trust": 0.31107509454349,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.9292622795372654,
+        "complaint_rate_per_100_touches": 0.3603261900246539,
+        "mean_reputation_change": -0.16625000000000012,
+        "pipeline": 2879.0,
+        "trust_consumed": 9255.0,
+        "wait_share": 0.7145416666666666,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.24729094254753628,
+        "claimed_pipeline_per_trust": 0.24729094254753628,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.9264208088366293,
+        "complaint_rate_per_100_touches": 0.2494209869944771,
+        "mean_reputation_change": -0.17891500000000016,
+        "pipeline": 2419.0,
+        "trust_consumed": 9782.0,
+        "wait_share": 0.7070416666666667,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2983697015299724,
+        "claimed_pipeline_per_trust": 0.2983697015299724,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8148804251550045,
+        "complaint_rate_per_100_touches": 0.4428697962798937,
+        "mean_reputation_change": -0.17752000000000012,
+        "pipeline": 2974.0,
+        "trust_consumed": 9967.5,
+        "wait_share": 0.70425,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2931679565373379,
+        "claimed_pipeline_per_trust": 0.2931679565373379,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.6955591225254146,
+        "complaint_rate_per_100_touches": 0.3031924380238987,
+        "mean_reputation_change": -0.1782450000000001,
+        "pipeline": 2860.0,
+        "trust_consumed": 9755.5,
+        "wait_share": 0.7065,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.34872942304618826,
+        "claimed_pipeline_per_trust": 0.34872942304618826,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 1,
+        "vetoes": 1,
+        "empty_comparison": false,
+        "unsubscribe_rate_per_100_touches": 0.7669285447063224,
+        "complaint_rate_per_100_touches": 0.3179947624392069,
+        "mean_reputation_change": -0.15818500000000013,
+        "pipeline": 3273.0,
+        "trust_consumed": 9385.5,
+        "wait_share": 0.7089166666666666,
+        "final_config": {
+          "workflow": "W1",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2913762613128056,
+        "claimed_pipeline_per_trust": 0.2913762613128056,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7442367035759666,
+        "complaint_rate_per_100_touches": 0.2359774913777455,
+        "mean_reputation_change": -0.17314000000000007,
+        "pipeline": 2801.0,
+        "trust_consumed": 9613.0,
+        "wait_share": 0.704875,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3561169400020373,
+        "claimed_pipeline_per_trust": 0.3561169400020373,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7147962830593281,
+        "complaint_rate_per_100_touches": 0.46461758398856323,
+        "mean_reputation_change": -0.1776350000000001,
+        "pipeline": 3496.0,
+        "trust_consumed": 9817.0,
+        "wait_share": 0.7068333333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.29891526811297586,
+        "claimed_pipeline_per_trust": 0.29891526811297586,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.9540954095409541,
+        "complaint_rate_per_100_touches": 0.23402340234023403,
+        "mean_reputation_change": -0.17464000000000013,
+        "pipeline": 2921.0,
+        "trust_consumed": 9772.0,
+        "wait_share": 0.7053333333333334,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.31136950904392763,
+        "claimed_pipeline_per_trust": 0.31136950904392763,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7320899424786473,
+        "complaint_rate_per_100_touches": 0.2963221195746906,
+        "mean_reputation_change": -0.17912000000000017,
+        "pipeline": 3133.0,
+        "trust_consumed": 10062.0,
+        "wait_share": 0.7013333333333334,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.28727893890675243,
+        "claimed_pipeline_per_trust": 0.28727893890675243,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.6624825662482566,
+        "complaint_rate_per_100_touches": 0.17433751743375175,
+        "mean_reputation_change": -0.18115500000000018,
+        "pipeline": 2859.0,
+        "trust_consumed": 9952.0,
+        "wait_share": 0.7009583333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.31810973675864257,
+        "claimed_pipeline_per_trust": 0.31810973675864257,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 1,
+        "vetoes": 1,
+        "empty_comparison": false,
+        "unsubscribe_rate_per_100_touches": 0.6315007429420505,
+        "complaint_rate_per_100_touches": 0.18573551263001487,
+        "mean_reputation_change": -0.1573850000000001,
+        "pipeline": 3009.0,
+        "trust_consumed": 9459.0,
+        "wait_share": 0.7101666666666666,
+        "final_config": {
+          "workflow": "W1",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2656375300721732,
+        "claimed_pipeline_per_trust": 0.2656375300721732,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.6627261329034569,
+        "complaint_rate_per_100_touches": 0.4477879276374709,
+        "mean_reputation_change": -0.1779750000000001,
+        "pipeline": 2650.0,
+        "trust_consumed": 9976.0,
+        "wait_share": 0.7049583333333334,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3141786713102211,
+        "claimed_pipeline_per_trust": 0.3141786713102211,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8504344610833795,
+        "complaint_rate_per_100_touches": 0.33277870216306155,
+        "mean_reputation_change": -0.16893000000000014,
+        "pipeline": 2977.0,
+        "trust_consumed": 9475.5,
+        "wait_share": 0.7120416666666667,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.302163364334816,
+        "claimed_pipeline_per_trust": 0.302163364334816,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8110014104372355,
+        "complaint_rate_per_100_touches": 0.2468265162200282,
+        "mean_reputation_change": -0.18129000000000017,
+        "pipeline": 2989.0,
+        "trust_consumed": 9892.0,
+        "wait_share": 0.700875,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3059173418110963,
+        "claimed_pipeline_per_trust": 0.3059173418110963,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.9100837277029487,
+        "complaint_rate_per_100_touches": 0.3276301419730615,
+        "mean_reputation_change": -0.17268000000000017,
+        "pipeline": 2983.0,
+        "trust_consumed": 9751.0,
+        "wait_share": 0.7107083333333334,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.31426678445229683,
+        "claimed_pipeline_per_trust": 0.31426678445229683,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 1,
+        "vetoes": 1,
+        "empty_comparison": false,
+        "unsubscribe_rate_per_100_touches": 0.8771929824561403,
+        "complaint_rate_per_100_touches": 0.23391812865497075,
+        "mean_reputation_change": -0.15100500000000006,
+        "pipeline": 2846.0,
+        "trust_consumed": 9056.0,
+        "wait_share": 0.72075,
+        "final_config": {
+          "workflow": "W1",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3180742307498615,
+        "claimed_pipeline_per_trust": 0.3180742307498615,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.904095018613721,
+        "complaint_rate_per_100_touches": 0.28363765289842224,
+        "mean_reputation_change": -0.17779000000000023,
+        "pipeline": 3158.0,
+        "trust_consumed": 9928.5,
+        "wait_share": 0.703375,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3097126377587805,
+        "claimed_pipeline_per_trust": 0.3097126377587805,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8298755186721992,
+        "complaint_rate_per_100_touches": 0.378856215046004,
+        "mean_reputation_change": -0.17143500000000023,
+        "pipeline": 3007.0,
+        "trust_consumed": 9709.0,
+        "wait_share": 0.7114583333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.259343853820598,
+        "claimed_pipeline_per_trust": 0.259343853820598,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7562117392870004,
+        "complaint_rate_per_100_touches": 0.4141159524666907,
+        "mean_reputation_change": -0.1730750000000002,
+        "pipeline": 2498.0,
+        "trust_consumed": 9632.0,
+        "wait_share": 0.7094166666666667,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3141540214407789,
+        "claimed_pipeline_per_trust": 0.3141540214407789,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.835407038748667,
+        "complaint_rate_per_100_touches": 0.3021685033771774,
+        "mean_reputation_change": -0.17547000000000013,
+        "pipeline": 3033.0,
+        "trust_consumed": 9654.5,
+        "wait_share": 0.7057916666666667,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3567317574511819,
+        "claimed_pipeline_per_trust": 0.3567317574511819,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8017492711370262,
+        "complaint_rate_per_100_touches": 0.2915451895043732,
+        "mean_reputation_change": -0.17176000000000013,
+        "pipeline": 3471.0,
+        "trust_consumed": 9730.0,
+        "wait_share": 0.71275,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2651526323551099,
+        "claimed_pipeline_per_trust": 0.2651526323551099,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 2,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7727975270479135,
+        "complaint_rate_per_100_touches": 0.2575991756826378,
+        "mean_reputation_change": -0.18399500000000013,
+        "pipeline": 2697.0,
+        "trust_consumed": 10171.5,
+        "wait_share": 0.6952083333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.31681898348565013,
+        "claimed_pipeline_per_trust": 0.31681898348565013,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 1,
+        "vetoes": 1,
+        "empty_comparison": false,
+        "unsubscribe_rate_per_100_touches": 0.6264236902050114,
+        "complaint_rate_per_100_touches": 0.22779043280182232,
+        "mean_reputation_change": -0.15883500000000017,
+        "pipeline": 2964.0,
+        "trust_consumed": 9355.5,
+        "wait_share": 0.7133333333333334,
+        "final_config": {
+          "workflow": "W1",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      }
+    ],
+    "STATIC": [
+      {
+        "pipeline_per_trust": 0.2828302820385948,
+        "claimed_pipeline_per_trust": 0.2828302820385948,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7559774964838256,
+        "complaint_rate_per_100_touches": 0.2109704641350211,
+        "mean_reputation_change": -0.18246000000000018,
+        "pipeline": 2858.0,
+        "trust_consumed": 10105.0,
+        "wait_share": 0.70475,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2700518754988029,
+        "claimed_pipeline_per_trust": 0.2700518754988029,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8565310492505354,
+        "complaint_rate_per_100_touches": 0.28551034975017847,
+        "mean_reputation_change": -0.1776850000000002,
+        "pipeline": 2707.0,
+        "trust_consumed": 10024.0,
+        "wait_share": 0.705125,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.27359006211180126,
+        "claimed_pipeline_per_trust": 0.27359006211180126,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.6226219301279834,
+        "complaint_rate_per_100_touches": 0.38049117952265654,
+        "mean_reputation_change": -0.18082500000000012,
+        "pipeline": 2753.0,
+        "trust_consumed": 10062.5,
+        "wait_share": 0.7020833333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.33555869596998195,
+        "claimed_pipeline_per_trust": 0.33555869596998195,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7181942544459644,
+        "complaint_rate_per_100_touches": 0.307797537619699,
+        "mean_reputation_change": -0.18681500000000018,
+        "pipeline": 3443.0,
+        "trust_consumed": 10260.5,
+        "wait_share": 0.6974583333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.26295841016185206,
+        "claimed_pipeline_per_trust": 0.26295841016185206,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8175872093023255,
+        "complaint_rate_per_100_touches": 0.30886627906976744,
+        "mean_reputation_change": -0.17488000000000015,
+        "pipeline": 2567.0,
+        "trust_consumed": 9762.0,
+        "wait_share": 0.7104583333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.32784523564519447,
+        "claimed_pipeline_per_trust": 0.32784523564519447,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7465404224326293,
+        "complaint_rate_per_100_touches": 0.3641660597232338,
+        "mean_reputation_change": -0.17730500000000016,
+        "pipeline": 3186.0,
+        "trust_consumed": 9718.0,
+        "wait_share": 0.7079583333333334,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2579936051159073,
+        "claimed_pipeline_per_trust": 0.2579936051159073,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7299270072992701,
+        "complaint_rate_per_100_touches": 0.23144027060708564,
+        "mean_reputation_change": -0.17769500000000016,
+        "pipeline": 2582.0,
+        "trust_consumed": 10008.0,
+        "wait_share": 0.7059166666666666,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.31107509454349,
+        "claimed_pipeline_per_trust": 0.31107509454349,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.9292622795372654,
+        "complaint_rate_per_100_touches": 0.3603261900246539,
+        "mean_reputation_change": -0.16625000000000012,
+        "pipeline": 2879.0,
+        "trust_consumed": 9255.0,
+        "wait_share": 0.7145416666666666,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.24729094254753628,
+        "claimed_pipeline_per_trust": 0.24729094254753628,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.9264208088366293,
+        "complaint_rate_per_100_touches": 0.2494209869944771,
+        "mean_reputation_change": -0.17891500000000016,
+        "pipeline": 2419.0,
+        "trust_consumed": 9782.0,
+        "wait_share": 0.7070416666666667,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2983697015299724,
+        "claimed_pipeline_per_trust": 0.2983697015299724,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8148804251550045,
+        "complaint_rate_per_100_touches": 0.4428697962798937,
+        "mean_reputation_change": -0.17752000000000012,
+        "pipeline": 2974.0,
+        "trust_consumed": 9967.5,
+        "wait_share": 0.70425,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2931679565373379,
+        "claimed_pipeline_per_trust": 0.2931679565373379,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.6955591225254146,
+        "complaint_rate_per_100_touches": 0.3031924380238987,
+        "mean_reputation_change": -0.1782450000000001,
+        "pipeline": 2860.0,
+        "trust_consumed": 9755.5,
+        "wait_share": 0.7065,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2785858585858586,
+        "claimed_pipeline_per_trust": 0.2785858585858586,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.6360424028268551,
+        "complaint_rate_per_100_touches": 0.38869257950530034,
+        "mean_reputation_change": -0.17896500000000015,
+        "pipeline": 2758.0,
+        "trust_consumed": 9900.0,
+        "wait_share": 0.703,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2913762613128056,
+        "claimed_pipeline_per_trust": 0.2913762613128056,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7442367035759666,
+        "complaint_rate_per_100_touches": 0.2359774913777455,
+        "mean_reputation_change": -0.17314000000000007,
+        "pipeline": 2801.0,
+        "trust_consumed": 9613.0,
+        "wait_share": 0.704875,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3561169400020373,
+        "claimed_pipeline_per_trust": 0.3561169400020373,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7147962830593281,
+        "complaint_rate_per_100_touches": 0.46461758398856323,
+        "mean_reputation_change": -0.1776350000000001,
+        "pipeline": 3496.0,
+        "trust_consumed": 9817.0,
+        "wait_share": 0.7068333333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.29891526811297586,
+        "claimed_pipeline_per_trust": 0.29891526811297586,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.9540954095409541,
+        "complaint_rate_per_100_touches": 0.23402340234023403,
+        "mean_reputation_change": -0.17464000000000013,
+        "pipeline": 2921.0,
+        "trust_consumed": 9772.0,
+        "wait_share": 0.7053333333333334,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.31136950904392763,
+        "claimed_pipeline_per_trust": 0.31136950904392763,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7320899424786473,
+        "complaint_rate_per_100_touches": 0.2963221195746906,
+        "mean_reputation_change": -0.17912000000000017,
+        "pipeline": 3133.0,
+        "trust_consumed": 10062.0,
+        "wait_share": 0.7013333333333334,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.28727893890675243,
+        "claimed_pipeline_per_trust": 0.28727893890675243,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.6624825662482566,
+        "complaint_rate_per_100_touches": 0.17433751743375175,
+        "mean_reputation_change": -0.18115500000000018,
+        "pipeline": 2859.0,
+        "trust_consumed": 9952.0,
+        "wait_share": 0.7009583333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.31112433075550266,
+        "claimed_pipeline_per_trust": 0.31112433075550266,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7150331356818974,
+        "complaint_rate_per_100_touches": 0.2615974886641088,
+        "mean_reputation_change": -0.18174500000000016,
+        "pipeline": 3138.0,
+        "trust_consumed": 10086.0,
+        "wait_share": 0.7005,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2656375300721732,
+        "claimed_pipeline_per_trust": 0.2656375300721732,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.6627261329034569,
+        "complaint_rate_per_100_touches": 0.4477879276374709,
+        "mean_reputation_change": -0.1779750000000001,
+        "pipeline": 2650.0,
+        "trust_consumed": 9976.0,
+        "wait_share": 0.7049583333333334,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3141786713102211,
+        "claimed_pipeline_per_trust": 0.3141786713102211,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8504344610833795,
+        "complaint_rate_per_100_touches": 0.33277870216306155,
+        "mean_reputation_change": -0.16893000000000014,
+        "pipeline": 2977.0,
+        "trust_consumed": 9475.5,
+        "wait_share": 0.7120416666666667,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.302163364334816,
+        "claimed_pipeline_per_trust": 0.302163364334816,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8110014104372355,
+        "complaint_rate_per_100_touches": 0.2468265162200282,
+        "mean_reputation_change": -0.18129000000000017,
+        "pipeline": 2989.0,
+        "trust_consumed": 9892.0,
+        "wait_share": 0.700875,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3059173418110963,
+        "claimed_pipeline_per_trust": 0.3059173418110963,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.9100837277029487,
+        "complaint_rate_per_100_touches": 0.3276301419730615,
+        "mean_reputation_change": -0.17268000000000017,
+        "pipeline": 2983.0,
+        "trust_consumed": 9751.0,
+        "wait_share": 0.7107083333333334,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3149598133264195,
+        "claimed_pipeline_per_trust": 0.3149598133264195,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7595405705816969,
+        "complaint_rate_per_100_touches": 0.29640607632456467,
+        "mean_reputation_change": -0.17069000000000012,
+        "pipeline": 3037.0,
+        "trust_consumed": 9642.5,
+        "wait_share": 0.7147083333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3180742307498615,
+        "claimed_pipeline_per_trust": 0.3180742307498615,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.904095018613721,
+        "complaint_rate_per_100_touches": 0.28363765289842224,
+        "mean_reputation_change": -0.17779000000000023,
+        "pipeline": 3158.0,
+        "trust_consumed": 9928.5,
+        "wait_share": 0.703375,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3097126377587805,
+        "claimed_pipeline_per_trust": 0.3097126377587805,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8298755186721992,
+        "complaint_rate_per_100_touches": 0.378856215046004,
+        "mean_reputation_change": -0.17143500000000023,
+        "pipeline": 3007.0,
+        "trust_consumed": 9709.0,
+        "wait_share": 0.7114583333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.259343853820598,
+        "claimed_pipeline_per_trust": 0.259343853820598,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7562117392870004,
+        "complaint_rate_per_100_touches": 0.4141159524666907,
+        "mean_reputation_change": -0.1730750000000002,
+        "pipeline": 2498.0,
+        "trust_consumed": 9632.0,
+        "wait_share": 0.7094166666666667,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3141540214407789,
+        "claimed_pipeline_per_trust": 0.3141540214407789,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.835407038748667,
+        "complaint_rate_per_100_touches": 0.3021685033771774,
+        "mean_reputation_change": -0.17547000000000013,
+        "pipeline": 3033.0,
+        "trust_consumed": 9654.5,
+        "wait_share": 0.7057916666666667,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.3567317574511819,
+        "claimed_pipeline_per_trust": 0.3567317574511819,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.8017492711370262,
+        "complaint_rate_per_100_touches": 0.2915451895043732,
+        "mean_reputation_change": -0.17176000000000013,
+        "pipeline": 3471.0,
+        "trust_consumed": 9730.0,
+        "wait_share": 0.71275,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2651526323551099,
+        "claimed_pipeline_per_trust": 0.2651526323551099,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.7727975270479135,
+        "complaint_rate_per_100_touches": 0.2575991756826378,
+        "mean_reputation_change": -0.18399500000000013,
+        "pipeline": 2697.0,
+        "trust_consumed": 10171.5,
+        "wait_share": 0.6952083333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      },
+      {
+        "pipeline_per_trust": 0.2992431990182041,
+        "claimed_pipeline_per_trust": 0.2992431990182041,
+        "separation_gap": 0.0,
+        "fake_adoptions": 0,
+        "adoptions": 0,
+        "vetoes": 0,
+        "empty_comparison": true,
+        "unsubscribe_rate_per_100_touches": 0.46787835162857655,
+        "complaint_rate_per_100_touches": 0.30592046068022316,
+        "mean_reputation_change": -0.1783300000000001,
+        "pipeline": 2926.0,
+        "trust_consumed": 9778.0,
+        "wait_share": 0.7070833333333333,
+        "final_config": {
+          "workflow": "W0",
+          "state": "S0",
+          "threshold": 0.4,
+          "lambda": 3.0
+        }
+      }
+    ]
+  }
+}

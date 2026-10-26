@@ -1,0 +1,38 @@
+{
+  "persistence_0.800": {
+    "persistence_baseline": {
+      "persistence_accuracy": 0.8431372549019608,
+      "n_pairs": 51,
+      "persistence_accuracy_non_release_weeks": 0.8863636363636364,
+      "n_non_release_pairs": 44
+    },
+    "majority_baseline": {
+      "majority_accuracy": 0.47058823529411764,
+      "n_pairs": 51,
+      "majority_class": "up"
+    },
+    "validation": {
+      "n_rows": 52,
+      "n_invalid": 0,
+      "invalid": []
+    }
+  },
+  "persistence_0.333": {
+    "persistence_baseline": {
+      "persistence_accuracy": 0.37254901960784315,
+      "n_pairs": 51,
+      "persistence_accuracy_non_release_weeks": 0.38636363636363635,
+      "n_non_release_pairs": 44
+    },
+    "majority_baseline": {
+      "majority_accuracy": 0.35294117647058826,
+      "n_pairs": 51,
+      "majority_class": "up"
+    },
+    "validation": {
+      "n_rows": 52,
+      "n_invalid": 0,
+      "invalid": []
+    }
+  }
+}
