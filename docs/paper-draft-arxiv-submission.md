@@ -1152,4 +1152,4 @@ Compared with the main track, specialised conferences and workshops (for example
 
 The benchmark design, simulator, trajectory-level offline evaluation layer, and trial protocol described in Chapter 6 are provided through the accompanying benchmark package. The benchmark status is a benchmark design plus one simulator implementation, not yet a public benchmark: it has no public release, no third-party tasks, and no external baseline implementations at the time of this preprint, and no third-party adoption is claimed. All experimental results reported in this paper are synthetic data from the simulator described in Chapter 6; no real vendor logs are included.
 
-**Code and data release link:** [Link — to be filled in after the release method is confirmed]
+**Code and data release link:** https://github.com/louisliqi0315/RSI-GTM

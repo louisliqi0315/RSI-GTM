@@ -6,7 +6,7 @@
 
 **What this package is:** This is an English companion package built for the arXiv preprint line. It is a NEW package, created alongside — not on top of — the original frozen package at `~/workspace/gtm-research/benchmark-package/` (69 files). The original package is untouched: no file in it was modified, added, or removed, and its manifest checksums still verify. The full paper draft in this package is a copy of `~/workspace/gtm-research/paper-draft-arxiv-submission.md` (see `docs/paper-draft-arxiv-submission.md`).
 
-**What this package is not:** It is not a replacement for the frozen package, and it is not a new experiment. No new experiment was run for this package, no new load-bearing claim or number was added, and no public release link, repository address, or author information beyond what the user supplied was invented. The one placeholder that remains open is the code and data release link in the paper draft (line 1155 of the draft): it is left as a placeholder until the release method is confirmed.
+**What this package is not:** It is not a replacement for the frozen package, and it is not a new experiment. No new experiment was run for this package, no new load-bearing claim or number was added, and no public release link, repository address, or author information beyond what the user supplied was invented. The code and data release link in the paper draft (line 1155 of the draft) is https://github.com/louisliqi0315/RSI-GTM.
 
 ## 1. The benchmark
 
@@ -37,7 +37,7 @@ benchmark-package-en/
 ├── code/                           Simulator and run entry points (26 .py files, byte-identical copies of the original package)
 ├── data/                           Result JSON files (14 .json files, byte-identical copies of the original package)
 └── docs/
-    ├── paper-draft-arxiv-submission.md   Copy of the arXiv submission-format draft (English; author, affiliation, email, and ORCID filled; code release link left as a placeholder)
+    ├── paper-draft-arxiv-submission.md   Copy of the arXiv submission-format draft (English; author, affiliation, email, and ORCID filled; code release link: https://github.com/louisliqi0315/RSI-GTM)
     ├── stage-summary-en.md               One-page English summary of stages 2a–2k (designs and conclusion limits; the stage reports govern)
     ├── reports-zh/                  Stage reports in Chinese, byte-identical copies of the original package (13 files; not translated in full)
     ├── preregistrations-zh/         Preregistrations in Chinese, byte-identical copies of the original package (6 files: 2e, 2g–2k)
